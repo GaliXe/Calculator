@@ -20,7 +20,7 @@ public class Expressions {
             
             switch(contOp)
             {
-                case "yes":
+                case "yes": contAdd();
                 break;
 
                 case "no": cont = true;
@@ -30,5 +30,12 @@ public class Expressions {
             }    
         }
         System.out.println("Exiting expression");
+    }
+    
+    private void contAdd()
+    {
+        double intAdditional = input.nextInt();
+        result = result + intAdditional;
+        System.out.println(result);
     }
 }
