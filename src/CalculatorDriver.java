@@ -32,5 +32,6 @@ public class CalculatorDriver {
             }
         }
         System.out.println("\nTerminating the program");
+        System.out.println("Hello, World!");
     }
 }
