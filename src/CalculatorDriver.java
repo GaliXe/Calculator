@@ -13,7 +13,7 @@ public class CalculatorDriver {
 
             switch(selection)
             {
-                case "add": System.out.println("not implemented");
+                case "add": Exp.add();
                 break;
 
                 case "subtract": System.out.println("not implemented");

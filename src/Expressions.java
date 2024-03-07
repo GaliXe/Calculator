@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Expressions {
     Scanner input = new Scanner(System.in);
-    boolean cont = true;
+    boolean cont = false;
     double result;
 
     public void add()
@@ -11,9 +11,9 @@ public class Expressions {
         double int2 = input.nextInt();
         result = int1 + int2;
         
-        System.out.print(result);
+        System.out.println(result);
 
-        while(cont = true)
+        while(!cont)
         {
             System.out.println("Wish to continue with?: ");
             String contOp = input.next();
@@ -23,11 +23,12 @@ public class Expressions {
                 case "yes":
                 break;
 
-                case "no": cont = false;
+                case "no": cont = true;
                 break;
 
                 default: System.out.println("INVALID CHOICE");
             }    
         }
+        System.out.println("Exiting expression");
     }
 }
