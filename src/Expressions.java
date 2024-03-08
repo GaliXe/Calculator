@@ -38,4 +38,9 @@ public class Expressions {
         result = result + intAdditional;
         System.out.println(result);
     }
+
+    public void subtract()
+    {
+
+    }
 }
