@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Expressions {
     Scanner input = new Scanner(System.in);
     boolean cont = false;
-    double result;
+    double result = 0;
 
     //Addition
     public void add()
